@@ -1,4 +1,4 @@
-const API = process.env.REACT_APP_API || "http://localhost:3000"; // change to 5000 if backend uses 5000
+const API = process.env.REACT_APP_API || "https://crm-system-w4i0.onrender.com"; // change to 5000 if backend uses 5000
 
 async function request(path, method="GET", body=null, token=null){
   const headers = { "Content-Type":"application/json" };
